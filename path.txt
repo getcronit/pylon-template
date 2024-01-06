@@ -1,0 +1,236 @@
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; } parentType: any
+["allUser"] type: () => User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE"] type: User[] parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["allUser","RETURN_TYPE","ITEM_TYPE","id"] type: number parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","name"] type: string parentType: User
+["allUser","RETURN_TYPE","ITEM_TYPE","email"] type: string parentType: User
+["user"] type: (userId: number) => User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["user","userId"] type: number parentType: (userId: number) => User
+["user","RETURN_TYPE"] type: User parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+["version"] type: string parentType: { allUser: () => User[]; user: (userId: number) => User; } & { version: string; }
+[] type: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; } parentType: any
+["userCreate"] type: (name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userCreate","name"] type: string parentType: (name: string, email: string) => User
+["userCreate","email"] type: string parentType: (name: string, email: string) => User
+["userCreate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate"] type: (userId: number, name: string, email: string) => User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userUpdate","userId"] type: number parentType: (userId: number, name: string, email: string) => User
+["userUpdate","name"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","email"] type: string parentType: (userId: number, name: string, email: string) => User
+["userUpdate","RETURN_TYPE"] type: User parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete"] type: (userId: number) => boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+["userDelete","userId"] type: number parentType: (userId: number) => boolean
+["userDelete","RETURN_TYPE"] type: boolean parentType: { userCreate: (name: string, email: string) => User; userUpdate: (userId: number, name: string, email: string) => User; userDelete: (userId: number) => boolean; }
+[] type: { hello: () => any; } & { version: string; } parentType: any
+["hello"] type: () => any parentType: { hello: () => any; } & { version: string; }
+["hello","RETURN_TYPE"] type: any parentType: { hello: () => any; } & { version: string; }
+["version"] type: string parentType: { hello: () => any; } & { version: string; }
+[] type: unknown parentType: any
+[] type: { hello: () => any; } & { version: string; } parentType: any
+["hello"] type: () => any parentType: { hello: () => any; } & { version: string; }
+["hello","RETURN_TYPE"] type: any parentType: { hello: () => any; } & { version: string; }
+["version"] type: string parentType: { hello: () => any; } & { version: string; }
+[] type: unknown parentType: any
+[] type: { hello: () => any; } & { version: string; } parentType: any
+["hello"] type: () => any parentType: { hello: () => any; } & { version: string; }
+["hello","RETURN_TYPE"] type: any parentType: { hello: () => any; } & { version: string; }
+["version"] type: string parentType: { hello: () => any; } & { version: string; }
+[] type: unknown parentType: any
+[] type: { hello: () => any; } & { version: string; } parentType: any
+["hello"] type: () => any parentType: { hello: () => any; } & { version: string; }
+["hello","RETURN_TYPE"] type: any parentType: { hello: () => any; } & { version: string; }
+["version"] type: string parentType: { hello: () => any; } & { version: string; }
+[] type: unknown parentType: any

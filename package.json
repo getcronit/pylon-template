@@ -1,0 +1,22 @@
+{
+  "name": "@cronitio/pylon-template",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Generated with `sf new`",
+  "files": [
+    "package.json"
+  ],
+  "dependencies": {
+    "@cronitio/pylon": "*",
+    "@cronitio/pylon-builder": "*",
+    "@cronitio/pylon-server": "*"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "@cronitio/pylon-cli": "*"
+  },
+  "scripts": {
+    "develop": "bun run pylon develop",
+    "build": "bun run pylon build"
+  }
+}
