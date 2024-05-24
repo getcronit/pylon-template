@@ -3,7 +3,7 @@
 FROM oven/bun:1 as base
 
 LABEL description="This is a template for a Pylon service"
-LABEL org.opencontainers.image.source="https://github.com/cronitio/pylon-template"
+LABEL org.opencontainers.image.source="https://github.com/getcronit/pylon-template"
 LABEL maintainer="office@cronit.io"
 
 WORKDIR /usr/src/pylon
