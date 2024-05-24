@@ -2,7 +2,7 @@
   "name": "@cronitio/pylon-template",
   "version": "0.0.1",
   "type": "module",
-  "description": "Generated with `sf new`",
+  "description": "Generated with `pylon new`",
   "files": [
     "package.json"
   ],
