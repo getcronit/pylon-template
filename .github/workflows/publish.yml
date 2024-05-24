@@ -2,7 +2,7 @@ name: publish
 
 on: [push]
 env:
-  IMAGE_NAME: template
+  IMAGE_NAME: pylon-template
 
 jobs:
   # Push image to GitHub Packages.
@@ -40,4 +40,4 @@ jobs:
           docker push $IMAGE_ID:$VERSION
 
 # SPDX-License-Identifier: (EUPL-1.2)
-# Copyright © 2019-2022 snek.at
+# Copyright © 2024 cronit KG

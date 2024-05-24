@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://snek.at/" target="_blank" rel="noopener noreferrer">
-    <img src="https://avatars2.githubusercontent.com/u/55870326?s=400" alt="SNEK Logo" height="150">
+  <a href="https://www.cronit.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://avatars.githubusercontent.com/u/89402750?s=200&v=4" alt="cronit logo" height="150">
   </a>
 </p>
 
@@ -8,8 +8,8 @@
 
 ## Table of contents
 
--   [Table of contents](#table-of-contents)
--   [Conflicts](#conflicts)
+- [Table of contents](#table-of-contents)
+- [Conflicts](#conflicts)
 
 ## [](#conflicts)Conflicts
 
@@ -27,4 +27,4 @@ be high on both sides of the process. Try to keep in mind the immortal
 words of Bill and Ted, "Be excellent to each other."
 
 SPDX-License-Identifier: (EUPL-1.2)
-Copyright © 2019-2022 snek.at
+Copyright © 2024 cronit KG
