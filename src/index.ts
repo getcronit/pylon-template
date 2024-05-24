@@ -1,4 +1,4 @@
-import {defineService, logger, PylonAPI} from '@cronitio/pylon'
+import {defineService, logger, PylonAPI} from '@getcronit/pylon'
 
 export default defineService({
   Query: {
