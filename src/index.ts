@@ -1,17 +1,13 @@
-import { defineService, logger } from "@cronitio/pylon";
+import {defineService, logger, PylonAPI} from '@cronitio/pylon'
 
-export default defineService(
-  {
-    Query: {
-      hello() {
-        return "Hello, World!";
-      },
-    },
-  },
-  {
-    configureApp(app) {
-      logger.info("Configuring app");
-      return app;
-    },
+export default defineService({
+  Query: {
+    hello() {
+      return 'Hello, World!'
+    }
   }
-);
+})
+
+export const configureApp: PylonAPI['configureApp'] = app => {
+  logger.info('Configuring app')
+}
