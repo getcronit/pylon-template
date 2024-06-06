@@ -29,6 +29,9 @@ COPY . .
 
 # [optional] tests & build
 ENV NODE_ENV=production
+
+# Create .pylon folder (mkdir)
+RUN mkdir -p .pylon
 # RUN bun test
 RUN bun run pylon build
 
