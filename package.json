@@ -9,7 +9,8 @@
   "dependencies": {
     "@getcronit/pylon": "*",
     "@getcronit/pylon-builder": "*",
-    "@getcronit/pylon-server": "*"
+    "@getcronit/pylon-server": "*",
+    "bun-types": "^1.1.18"
   },
   "devDependencies": {
     "commitizen": "^4.2.5",
