@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "@getcronit/pylon": ">=1.2.0-beta.1",
-    "@getcronit/pylon-builder": "*",
+    "@getcronit/pylon-builder": ">=1.1.0-beta.1",
     "@getcronit/pylon-server": ">=1.1.0-beta.1",
     "bun-types": "^1.1.18"
   },
