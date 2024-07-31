@@ -1,13 +1,14 @@
-import {defineService, logger, PylonAPI} from '@getcronit/pylon'
+import { defineService, logger, PylonAPI } from "@getcronit/pylon";
+import { prisma } from "./client";
 
 export default defineService({
   Query: {
-    hello() {
-      return 'Hello, World!'
-    }
-  }
-})
+    posts: async () => {
+      return await prisma.post.findMany();
+    },
+  },
+});
 
-export const configureApp: PylonAPI['configureApp'] = app => {
-  logger.info('Configuring app')
-}
+export const configureApp: PylonAPI["configureApp"] = (app) => {
+  logger.info("Configuring app");
+};

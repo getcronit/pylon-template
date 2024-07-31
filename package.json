@@ -10,10 +10,11 @@
     "@getcronit/pylon": "*",
     "@getcronit/pylon-builder": "*",
     "@getcronit/pylon-server": "*",
-    "bun-types": "^1.1.18"
+    "@prisma/client": "^5.17.0",
+    "bun-types": "^1.1.21"
   },
   "devDependencies": {
-    "commitizen": "^4.2.5",
+    "commitizen": "^4.3.0",
     "@getcronit/pylon-cli": "*"
   },
   "scripts": {
