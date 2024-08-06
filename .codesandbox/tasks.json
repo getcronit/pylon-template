@@ -1,14 +1,14 @@
 {
-    // These tasks will run in order when initializing your CodeSandbox project.
-    "setupTasks": [
-      {
-        "name": "Install Dependencies",
-        "command": "bun install"
-      }
-    ],
-  
-    // These tasks can be run from CodeSandbox. Running one will open a log in the app.
-    "tasks": {
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "bun install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
     "Start": {
       "name": "Start",
       "command": "bun develop",
@@ -18,5 +18,4 @@
       }
     }
   }
-  }
-  
+}
