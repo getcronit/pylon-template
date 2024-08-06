@@ -10,4 +10,8 @@ export default defineService({
 
 export const configureApp: PylonAPI['configureApp'] = app => {
   logger.info('Configuring app')
+
+  app.get('/', c => {
+    return c.redirect('/graphql')
+  })
 }
