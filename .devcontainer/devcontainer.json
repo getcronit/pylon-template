@@ -1,6 +1,17 @@
 {
-    "name": "Devcontainer",
-    "build": {
-      "dockerfile": "./Dockerfile"
+  "name": "Bun",
+  "build": {
+    "dockerfile": "Dockerfile",
+    // Update 'VARIANT' to pick a Bun version.
+    "args": {
+      "VARIANT": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
     }
   }
+}
