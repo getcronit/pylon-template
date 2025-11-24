@@ -7,14 +7,14 @@
     "package.json"
   ],
   "dependencies": {
-    "@getcronit/pylon": "*",
-    "@getcronit/pylon-builder": "*",
-    "@getcronit/pylon-server": "*",
+    "@getcronit/pylon": "^1",
+    "@getcronit/pylon-builder": "^1",
+    "@getcronit/pylon-server": "^1",
     "bun-types": "^1.1.18"
   },
   "devDependencies": {
     "commitizen": "^4.2.5",
-    "@getcronit/pylon-cli": "*"
+    "@getcronit/pylon-cli": "^1"
   },
   "scripts": {
     "develop": "bun run pylon develop",
